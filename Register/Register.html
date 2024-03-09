@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="register.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+   <ul>
+    <li> <a href="../index.html">Home</a>
+        <br></li>
+    <li> <a href="../skill/skill.html">Skill</a>
+        <br></li>
+    <li><a href="../contact/contact.html">Contact</a>
+        <br></li>
+    <li><a href="../project/project.html">Project</a>
+        <br></li>
+   </ul>
    
-   <div class="container">
-    <div class="title">
-        <p>Registration</p>
-    </div>
+    
+    
 
-    <form action="#">
-        <div class="user_details">
-            <div class="input_box">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Enter your name" required>
-            </div>
-            <div class="input_box">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter your username" required>
-            </div>
-            <div class="input_box">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required>
-            </div>
-            <div class="input_box">
-                <label for="phone">Phone Number</label>
-                <input type="number" id="phone" placeholder="Enter your number" required>
-            </div>
-            <div class="input_box">
-                <label for="pass">Password</label>
-                <input type="password" id="pass" placeholder="Enter your password" required>
-            </div>
-            <div class="input_box">
-                <label for="confirmPass">Confirm Password</label>
-                <input type="password" id="confirmPass" placeholder="Confirm your password" required>
-            </div>
-        </div>
-        <div class="gender">
-            <span class="gender_title">Gender</span>
-            <input type="radio" name="gender" id="radio_1">
-            <input type="radio" name="gender" id="radio_2">
-            <input type="radio" name="gender" id="radio_3">
+    <fieldset style="text-align: center">
+      <legend>Student Registration form</legend>
+      <form action="">
+        Name: <input type="text" required><br /><br />
+        F/Name: <input type="text" /><br /><br />
+        Address: <input type="text" name="" id="" /><br /><br />
+        Email: <input type="email" required /><br /><br />
 
-            <div class="category">
-                <label for="radio_1">
-                    <span class="dot one"></span>
-                    <span>Male</span>
-                </label>
-                <label for="radio_2">
-                    <span class="dot two"></span>
-                    <span>Female</span>
-                </label>
-                <label for="radio_3">
-                    <span class="dot three"></span>
-                    <span>Prefer not to say</span>
-                </label>
-            </div>
-        </div>
-        <div class="reg_btn">
-            <input type="submit" value="Register">
-        </div>
-    </form>
-</div>
+        <p>Comment:</p>
+        <textarea name="text" id="" cols="20" rows="10"></textarea><br /><br />
 
+        contact:<select required>
+          <option>92</option>
+          <option>91</option>
+          <option>93</option>
+          <option>099</option>
+          <option>89</option>
+          <option>71</option>
+          <option>22</option>
+          <option>54</option>
+          <option selected>99</option>
+          <option>90</option>
+          <option>33</option>
+          <option>77</option>
+          <option>99</option>
+          <option>32</option>
+        </select>
+        <input type="number" /> <br /><br />
 
+        Gender: <input type="radio" />Male
+        <input type="radio" name="" id="" />Female <br /><br />
 
-</body>
+        Your Hobby: Cricket: <input type="checkbox" /> bedmenten:
+        <input type="checkbox" name="" id="" /> Football:
+        <input type="checkbox" name="" id="" /> Other:
+        <input type="checkbox" name="" id="" /> <br /><br />
+
+        Date: <input type="date" /> <br /><br />
+
+        Department:
+        <select>
+          <option>Physics</option>
+          <option selected>Computer Science</option>
+          <option>Chemistry</option>
+          <option>Sharih Law</option>
+          <option>Islamic Study</option>
+        </select>
+        <br /><br />
+
+        <input type="submit" /> <br /><br />
+      </form>
+    </fieldset>
+  </body>
 </html>
