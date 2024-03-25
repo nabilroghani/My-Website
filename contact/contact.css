@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(202, 228, 228);
+
+fieldset{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 500px;
+    height: 650px;
+    color: rebeccapurple;
+}
+legend{
+    color: blue;
+    font-size: large;
+    
+}

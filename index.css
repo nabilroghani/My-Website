@@ -1,0 +1,14 @@
+*{
+    
+    background-color: rgb(202, 228, 228);
+}
+
+   
+#one{
+    
+    font-size: 30px;
+
+}
+table, th, td{
+    border: 1px solid black;
+}
