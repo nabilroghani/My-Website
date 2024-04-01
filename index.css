@@ -5,10 +5,30 @@
 
    
 #one{
-    
+    text-align: center;
+    text-shadow: 1px 1px 3px red;
+    line-height: 100px;
+    word-spacing: 40px;
+    text-decoration: underline;
     font-size: 30px;
+    width: 200;
+    height: 200;
+    background-color: rgb(165, 81, 81);
+    border-radius: 50px;
+    
 
+}
+#three{
+    text-align: center;
 }
 table, th, td{
     border: 1px solid black;
+}
+table, td{
+    background-color: rgb(0, 153, 255);
+}
+#two{
+    text-align: center;
+    
+    
 }
