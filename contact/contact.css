@@ -15,14 +15,19 @@
     background-color: rgb(202, 228, 228);
 
 fieldset{
-    background-color: antiquewhite;
+    background-color: rgb(137, 178, 195);
     text-align: center;
     width: 500px;
     height: 650px;
     color: rebeccapurple;
+    border-radius: 20px;
 }
 legend{
-    color: blue;
     font-size: large;
+    text-shadow: 1px 1px 3px red;
     
+}
+form{
+    background-color: rgb(164, 179, 176);
+    color: black;
 }

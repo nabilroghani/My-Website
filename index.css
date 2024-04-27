@@ -18,6 +18,11 @@
     
 
 }
+#two{
+    text-align: center;
+    
+    
+}
 #three{
     text-align: center;
 }
@@ -27,8 +32,10 @@ table, th, td{
 table, td{
     background-color: rgb(0, 153, 255);
 }
-#two{
-    text-align: center;
-    
-    
+.four{
+    background-color: rgb(139, 36, 199);
+    width: 400px;
+    height: 400px;
 }
+
+

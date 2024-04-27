@@ -1,0 +1,21 @@
+#cv{
+    background-color: rgb(103, 103, 222);
+    width: 300px;
+    height: 1000px;
+}
+#one{
+    text-shadow: 1px 1px 3px red;
+    text-align: center;
+    font-size: 50px;
+}
+#img{
+    width: 290px;
+    height: 290px;
+    border-radius: 300px;
+    box-shadow: 4px 10px 20px red;
+}
+table, th, td{
+    border: 1px solid black;
+    width: 100%;
+    
+}
